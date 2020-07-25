@@ -10,18 +10,12 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
     <meta name="viewport" content="width=device-width"/>
 
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
-
-    <link href="assets/css/animate.min.css" rel="stylesheet"/>
-
-    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
-
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-
-    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
-
-    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    {{ Html::style('assets/css/bootstrap.min.css') }}
+    {{ Html::style('assets/css/animate.min.css') }}
+    {{ Html::style('assets/css/paper-dashboard.css') }}
+    {{ Html::style('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css') }}
+    {{ Html::style('https://fonts.googleapis.com/css?family=Muli:400,300') }}
+    {{ Html::style('assets/css/themify-icons.css') }}
 
 </head>
 <body>
@@ -243,6 +237,6 @@
 
 </body>
 
-<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+{{ Html::script('assets/js/jquery-1.10.2.js') }}
+{{ Html::script('assets/js/jquery-1.10.2.js') }}
 </html>

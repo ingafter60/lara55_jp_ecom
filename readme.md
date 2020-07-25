@@ -22,5 +22,15 @@
 	> In DashboardController create index method and return dashbord
 	> In routes/web.php: create home route to render index method of the DashboardController	
 
+## 3. Installing laravelcollective
 
-
+	> Follow the instructions here: https://laravelcollective.com/docs/5.4/html#installation
+	> Using laravel ways to use link style and scripts 
+	  for style: {{ Http::style('') }}
+	  for script: {{ Http::script('') }}
+		$ git status
+		...
+        modified:   config/app.php
+        modified:   readme.md
+        modified:   resources/views/admin/dashboard.blade.php
+  
