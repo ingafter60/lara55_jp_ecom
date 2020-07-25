@@ -1,4 +1,5 @@
 # BUILDING ECOMMERCE USING LARAVEL V.5.5.28
+###### https://www.udemy.com/course/fullstackwebdeveloper/learn/lecture/10221486#overview
 
 ## 1. Create project
 
@@ -34,3 +35,18 @@
         modified:   readme.md
         modified:   resources/views/admin/dashboard.blade.php
   
+## 4. Master Layout
+
+	$ git status
+	On branch master
+	Your branch is up to date with 'origin/master'.
+
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+	        modified:   readme.md
+	        modified:   resources/views/admin/dashboard.blade.php
+	        new file:   resources/views/admin/layouts/footer.blade.php
+	        new file:   resources/views/admin/layouts/master.blade.php
+	        new file:   resources/views/admin/layouts/navbar.blade.php
+	        new file:   resources/views/admin/layouts/sidebar.blade.php
